@@ -35,8 +35,20 @@
                     <ul class="navbar-nav mr-auto">
                         @guest
                         @else
-                        <li class="nav-item">
-                                <a class="nav-link" href="#">{{ __('Menu') }}</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">{{ __('Super Admin') }}</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">{{ __('Role Admin') }}</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">{{ __('Role User') }}</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">{{ __('Global Role') }}</a>
                             </li>
                         @endguest
                     </ul>
